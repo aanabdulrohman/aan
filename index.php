@@ -30,7 +30,7 @@
     echo "<tr>";
     echo "<td>".$user_data['name']."</td>";
     echo "<td>".$user_data['email']."</td>";
-    echo "<td><a href='edit.php?id=$user_data[id]'>Edit</a> | <a href='delete.php?id=$user_data[id]'>Delete</a></td></tr>";
+    echo "<td><a href='config/edit.php?id=$user_data[id]'>Edit</a> | <a href='delete.php?id=$user_data[id]'>Delete</a></td></tr>";
   }
   ?>
 </table>
