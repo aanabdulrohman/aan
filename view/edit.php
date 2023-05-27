@@ -22,7 +22,7 @@ include '../koneksi/config.php';
 $id = $_GET['id'];
 
 // Fetch user data based on id
-$data = mysqli_query($koneksi, "SELECT * FROM users WHERE id=$id");
+$data = mysqli_query($koneksi, "SELECT * FROM users WHERE id='$id'");
 
 // looping data
 while($d = mysqli_fetch_array($data)){
@@ -32,8 +32,9 @@ while($d = mysqli_fetch_array($data)){
 <table border="0">
  <tr>
   <td>Nama</td>
-  <td><input type="text" name="name" value=<?= $d['name']; ?>></td>
+  <td><input type="text" name="name" value="<?= $d['name']; ?>"></td>
   <input type="hidden" name="id" value="<?= $d['id']; ?>">
+  
  </tr>
  <tr>
   <td>Email</td>
