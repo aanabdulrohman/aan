@@ -11,7 +11,7 @@ include '../koneksi/config.php';
   mysqli_query($koneksi, "UPDATE users SET name='$name', email='$email' WHERE id='$id'");
 
   // redirect to homepage to display update user in list
-  header("Location: ../view/index.php");
+  header("Location: ../view/index_curd.php");
 
   // tidak bisa muncul full name
 

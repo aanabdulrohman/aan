@@ -7,7 +7,7 @@
   <title>Document</title>
 </head>
 <body>
-  <a href="../view/index.php">Beranda</a><br><br>
+  <a href="../view/index_curd.php">Beranda</a><br><br>
 
   <form action="../controller/tambah_aksi.php" method="post" name="form1">
     <table>

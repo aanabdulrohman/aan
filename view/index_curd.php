@@ -8,6 +8,7 @@
     <title>Aan abdul rohman</title>
   </head>
   <body>
+    <a href="../index.html">Back to Home</a><br>
     <a href="../view/add.php">Tambah baru</a><br><br>
 <table width="80%" border="1">
   <tr>

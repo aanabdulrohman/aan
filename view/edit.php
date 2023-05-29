@@ -9,7 +9,7 @@
 </head>
 <body>
   <!-- link to home page -->
-  <a href="../view/index.php"></a><br><br>
+  <a href="../view/index_curd.php"></a><br><br>
 
   
 <?php 

@@ -10,7 +10,7 @@
     mysqli_query($koneksi, "INSERT INTO users VALUES ('','$name', '$email')");
 
     // mengalihkan ke halaman utama
-    header("Location:../view/index.php")
+    header("Location:../view/index_curd.php")
 
     // kurang notif jika data sudah masuk
 
